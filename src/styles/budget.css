@@ -1,0 +1,53 @@
+.budget_table{
+    width: 30vw; 
+    /* height: 500px;  */
+
+    min-width: 400px;
+    
+    margin: 70px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.budget_table h2{
+    box-sizing: border-box;
+    width: 100%;
+
+    border: 1px solid cadetblue;
+    margin: 0;
+    /* margin-bottom: 10px; */
+    padding: 5px;
+
+    text-align: center;
+}
+
+.cost_and_expense{
+    display: flex;
+
+}
+
+.cost_and_expense_particular{
+    border: 1px solid black;
+    padding: 5px;
+    flex-basis: 80%;
+}
+
+.cost_and_expense_amount{
+    border: 1px solid darkblue;
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.total_expenses{
+    padding: 10px;
+    
+    font-weight: bold;
+}
+
+.total_expenses::before{
+    content: 'Total expense : ';
+}
