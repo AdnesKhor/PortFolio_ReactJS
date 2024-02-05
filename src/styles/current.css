@@ -1,0 +1,47 @@
+.current_transactions{
+    width: 30vw; 
+
+    border: 1px solid black;
+    margin: 70px;
+
+    display:flex;
+    flex-direction: column;
+}
+
+h2 {
+    width: 100%;
+
+    padding: 5px;
+    margin: 0;
+
+    box-sizing: border-box;
+    border: 1px solid cadetblue;
+
+    text-align: center;
+}
+
+.transaction{
+    display:flex;
+}
+
+.transaction div{
+    border: 1px solid lightcoral;
+    padding: 5px;
+
+}
+
+.transaction-particular{
+    flex-basis: 50%;
+}
+
+.transaction-date{
+    flex-basis: 20%;
+}
+
+.total{
+    font-weight: bold;
+
+    border: 1px solid salmon;
+    padding: 15px;
+    text-align: center;
+}
