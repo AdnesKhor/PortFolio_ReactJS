@@ -1,4 +1,4 @@
-import {transactions} from './currentData.js';
+import {transactions} from './data.js';
 
 import '../styles/current.css';
 

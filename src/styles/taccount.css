@@ -1,0 +1,78 @@
+.t-account{
+    width: 70%;
+    max-width: 800px;
+    height: 200px;
+    max-height: 100vh;
+    margin-top: 10vh;
+    border: 3px solid darkgoldenrod;
+    position: relative;
+
+    /* font-size: 14px; */
+}
+
+.t-account h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.separator{
+    width: 0;
+    height: 80%;
+    border: 1px solid black;
+
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+
+    box-sizing: border-box;
+
+}
+
+.account-debit-side, .account-credit-side{
+    width: 50%;
+    height: 80%;
+    border-top: 1px solid peru;
+    
+    box-sizing: border-box;
+
+    position: absolute;
+    bottom: 0;
+
+    /* padding: 3px 0 2px 1px ; */
+}
+
+.account-debit-side {
+    left: 0;
+}
+
+.account-credit-side{
+    right:0;
+}
+
+.column_heading{
+    display:flex;
+    /* justify-content: space-around; */
+}
+
+.column_heading span{
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+
+}
+
+.column_heading span:first-child{
+    flex-grow: 1;
+
+    border-right: 1px solid black;
+}
+
+.column_heading span:nth-child(2){
+    flex-grow: 8;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.column_heading span:last-child{
+    flex-grow: 1;
+}
